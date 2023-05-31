@@ -33,3 +33,4 @@ preg_match_all($quality_regex, get_data($rawURL), $playURL, PREG_PATTERN_ORDER);
 header("Content-type: application/vnd.apple.mpegurl");
 header("Location: " . $playURL[1][0]);
 ?>
+
